@@ -1,11 +1,625 @@
-<!doctype html><html lang=zh-Hans x-data :class=$store.darkMode.class() :data-theme=$store.darkMode.theme()><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>所有分类 | blucatcat 的博客</title>
-<link rel=canonical href=https://bluecatcat.github.io/categories/><meta name=author content><meta name=description content><meta name=generator content="Hugo 0.133.1"><meta property="og:url" content="https://bluecatcat.github.io/categories/"><meta property="og:site_name" content="blucatcat 的博客"><meta property="og:title" content="Categories"><meta property="og:locale" content="zh_Hans"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Categories"><link rel=stylesheet href=/css/output.css><script defer src=https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js></script></head><body x-data="{
+<!DOCTYPE html>
+<html lang="zh-Hans"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+
+
+所有分类 | blucatcat 的博客</title>
+
+    
+
+<link rel="canonical" href="http://localhost:1313/categories/" />
+
+
+
+<meta name="author" content="bluecatcat" />
+<meta name="description" content="The life record of bluecatcat is presented here." />
+
+
+
+<meta name="generator" content="Hugo 0.133.1">
+
+
+<meta property="og:url" content="http://localhost:1313/categories/">
+  <meta property="og:site_name" content="blucatcat 的博客">
+  <meta property="og:title" content="Categories">
+  <meta property="og:description" content="The life record of bluecatcat is presented here.">
+  <meta property="og:locale" content="zh_Hans">
+  <meta property="og:type" content="website">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Categories">
+  <meta name="twitter:description" content="The life record of bluecatcat is presented here.">
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+<style>
+
+#dream-global-bg {
+  background-image: url(/me/background.jpg);
+}
+
+
+
+</style>
+
+
+
+     
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
     flip: false,
-  }"><div id=dream-global-bg></div><nav class="mt-4 lg:mt-8 py-4"><div class="container flex justify-between px-4"><section class="flex items-center gap-4"><div class="avatar cursor-pointer hover:online" @click="flip = !flip" title=翻转一下！><div class="h-10 rounded-full"><img src=/ alt></div></div></section><div class="dropdown dropdown-end sm:hidden"><div tabindex=0 role=button class="btn btn-ghost btn-square" aria-label="Select an option"><ion-icon name=menu class=text-2xl></ion-icon></div><ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md"><li><div role=link tabindex=0 class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title=关于><ion-icon name=information-circle></ion-icon>关于</div></li><li><a class="inline-flex items-center p-2 cursor-pointer" href=/posts title=归档><ion-icon name=archive></ion-icon>归档</a></li><li><a class="inline-flex items-center p-2 cursor-pointer" href=/categories title=所有分类><ion-icon name=grid></ion-icon>所有分类</a></li><li><a class="inline-flex items-center p-2 cursor-pointer" href=/tags title=所有标签><ion-icon name=pricetags></ion-icon>所有标签</a></li></ul></div><section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4"><div role=link tabindex=0 class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title=关于>关于</div><a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href=/posts title=归档><ion-icon class=group-hover:text-primary-content name=archive></ion-icon></a><a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href=/categories title=所有分类><ion-icon class=group-hover:text-primary-content name=grid></ion-icon></a><a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href=/tags title=所有标签><ion-icon class=group-hover:text-primary-content name=pricetags></ion-icon></a></section></div></nav><div class=flip-container :class="{ 'flip-it': flip }"><div class=flipper><div class=front><div class=container><div class="flex flex-col md:flex-row mt-4"><div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert"><h1 class=text-2xl>所有分类</h1><p class=text-sm>1分类</p><div class="flex flex-wrap gap-4 mt-6"><a href=/categories/category1/ class="badge h-6 no-underline hover:badge-primary">Category1</a></div></div><div class="divider divider-vertical md:divider-horizontal px-4 md:px-0"></div><div class=flex-1><div class=dream-grid><div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column"><a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href=/posts/article-title/><figure><img src=/img/cover.jpg alt="Article Title"></figure><div class=card-body><h2 class=card-title>Article Title</h2><p class="date text-base-content/60">星期四, 8月 29, 2024</p><p>Cut out summary from your post content here.</p><div class="card-actions justify-between items-center mt-4"><div class="flex items-center"><span>@</span>
-<span itemprop=author itemscope itemtype=https://schema.org/Person><span itemprop=name>Author Name</span></span></div><div class="inline-flex items-center"><ion-icon name=time class=mr-1></ion-icon><span>1分钟阅读</span></div></div></div></a></div></div></div></div><footer class="flex justify-between items-center gap-2 px-4 py-12"><div><p>© 2024 blucatcat 的博客</p><p class=text-sm>🌱
-<span class=text-base-content/60>Powered by <a class=hover:underline href=https://gohugo.io/ target=_blank>Hugo</a> with theme
-<a class=hover:underline href=https://github.com/g1eny0ung/hugo-theme-dream target=_blank>Dream</a>.</span></p></div><div x-data="{ icons: [
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
+
+  
+  <div class="container flex justify-between px-4">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻转一下！">
+        <div class="h-10 rounded-full">
+          <img src="/me/me.jpg" alt="bluecatcat 的博客" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          bluecatcat 的博客
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">仙人抚我顶，结发受长生！</div>
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="关于">
+    <ion-icon name="information-circle"></ion-icon>关于</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="归档">
+    <ion-icon name="archive"></ion-icon>
+    归档
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分类">
+    <ion-icon name="grid"></ion-icon>
+    所有分类
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有标签">
+    <ion-icon name="pricetags"></ion-icon>
+    所有标签
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://github.com/bluecatcat" target="_blank" title="GitHub">
+    
+    <ion-icon name="logo-github"></ion-icon>
+    
+    GitHub
+  </a>
+</li>
+
+
+
+  
+
+  
+    
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/series" target="" title="Series">
+    
+    <ion-icon name="planet"></ion-icon>
+    
+    Series
+  </a>
+</li>
+
+
+
+  
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="关于">关于</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS">
+  <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="归档">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="所有分类">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="所有标签">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
+
+
+  
+  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://github.com/bluecatcat" target="_blank" title="GitHub">
+    <ion-icon class="group-hover:text-primary-content" name="logo-github"></ion-icon>
+  </a>
+  
+
+
+
+  
+
+  
+    
+
+
+
+  
+  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/series" target="" title="Series">
+    <ion-icon class="group-hover:text-primary-content" name="planet"></ion-icon>
+  </a>
+  
+
+
+
+  
+
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+
+
+<div class="flex flex-col md:flex-row mt-4">
+
+  <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
+    <h1 class="text-2xl">所有分类</h1>
+    <p class="text-sm">1分类</p>
+    <div class="flex flex-wrap gap-4 mt-6">
+      
+      <a href="/categories/category1/" class="badge h-6 no-underline hover:badge-primary">
+        Category1
+      </a>
+      
+    </div>
+  </div>
+  
+  <div class="divider divider-vertical md:divider-horizontal px-4 md:px-0"></div>
+  
+  <div class="flex-1">
+    
+
+    
+    <div class="dream-grid">
+    
+      <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+        <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/article-title/">
+  
+  <figure>
+    
+    <img src="/me/backgroud.jpg" alt="博客搭建" />
+    
+  </figure>
+  
+
+  <div class="card-body">
+    <h2 class="card-title">博客搭建</h2>
+
+    <p class="date text-base-content/60">
+    
+      <span data-format="luxon">2024-08-29T16:56:53&#43;08:00</span>
+    
+    </p>
+
+    <p>Cut out summary from your post content here.</p>
+
+    <div class="card-actions justify-between items-center mt-4">
+      <div class="flex items-center">
+  
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="/me/me.jpg" alt="bluecatcat" />
+    </div>
+  </div>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">bluecatcat</span>
+    
+  
+  </span>
+</div>
+
+
+      <div class="inline-flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1分钟阅读</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+      </div>
+    
+    </div>
+    
+
+    
+  </div>
+</div>
+
+
+
+            
+            <footer class="flex justify-between items-center gap-2 px-4 py-12">
+            
+              <div>
+  
+  <p>
+    © 2024 blucatcat 的博客
+  </p>
+  
+
+  
+  <p class="text-sm">
+    🌱
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
+
+              <div
+  x-data="{ icons: [
     { name: 'moon', status: 'y' },
     { name: 'sunny', status: 'n' },
     { name: 'desktop', status: 'auto' }
-  ] }" class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"><template x-for="icon in icons"><div role=button tabindex=0 :aria-label="'Select ' + icon.name + ' mode'" class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary" :class="$store.darkMode.icon() === icon.name && 'bg-primary'" @click=$store.darkMode.toggle(icon.status)><ion-icon :name="`${icon.name}-outline`" class=group-hover:text-primary-content :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"></ion-icon></div></template></div></footer></div></div><div class=back><div class=container><div class=dream-grid><div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column"><article class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"><div class=card-body><div class=card-title>About Me</div><div class="prose dark:prose-invert"><p>Hi, I&rsquo;am bluecatcat!</p><p>This is my blog.</p><p>The remaining content of your post.</p></div></div></article></div></div></div></div></div></div><script>window.lightTheme=null,window.darkTheme=null</script><script src=https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin=anonymous></script><script src=/js/grid.js></script><script src=/js/main.js></script><script type=module src=https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js></script><script nomodule src=https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js></script></body></html>
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+            </footer>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="dream-grid">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">:关于本人</div>
+
+        <div class="prose dark:prose-invert">
+          <p>你好呀😄! 欢迎👋来到<strong>蓝猫猫（bluecatcat)</strong>💙🐱🐱💙 的个人博客.</p>
+<p>拥有众多自定义人设的一个失去真实感的在校研究生😢👨, 最近正在搭建我的第一个博客……</p>
+<p>欢迎各位通过我的邮箱和评论（还没开发😳）与我交流.</p>
+<h3 id="heading"></h3>
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">To Do</div>
+
+        <div class="prose dark:prose-invert">
+          <p>近期本站要做的事情</p>
+<ul>
+<li><input disabled="" type="checkbox"> 关于</li>
+<li><input disabled="" type="checkbox"> 导航</li>
+<li><input disabled="" type="checkbox"> 评论</li>
+<li><input disabled="" type="checkbox"> 语法高亮</li>
+<li><input disabled="" type="checkbox"> 页面定制</li>
+<li><input disabled="" type="checkbox"> 多语言</li>
+</ul>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">关于本站</div>
+
+        <div class="prose dark:prose-invert">
+          <p>本站目前想做什么还没有想好，可能的内容有：</p>
+<ul>
+<li><strong>技术向</strong>。 最近在看云计算相关的技术，后面应该从事这方面的工作。</li>
+<li><strong>生活向</strong>。 这方面的内容应该只会涉及到吃喝玩乐的攻略。</li>
+<li><strong>狼人杀向</strong>。我目前完全不懂狼人杀，但我致力于成为一位狼人杀高手，我会将我看到的教程总结放到这里。</li>
+<li><strong>键政</strong>。在成为一名塔学🗼高手（自认为，毕竟强如 mhyyyy 也不懂真正的塔学）之前，我会分享一些对事实热点的看法。</li>
+</ul>
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">State</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Cut out summary from your post content here.</p>
+<p>The remaining content of your post.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">最近</div>
+
+        <div class="prose dark:prose-invert">
+          <p>近期发生的一些事</p>
+<h3 id="最近在听loud_sound">最近在听🔊:</h3>
+<ul>
+<li>come on ! sweet death.</li>
+</ul>
+<h3 id="最近在玩video_game">最近在玩🎮:</h3>
+<ul>
+<li>《元气骑士前传》</li>
+<li>《云顶之奕》</li>
+</ul>
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+<script src="/js/grid.js"></script>
+
+<script src="/js/main.js"></script>
+
+    
+
+
+<script
+  src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"
+  integrity="sha256-4sbTzmCCW9LGrIh5OsN8V5Pfdad1F1MwhLAOyXKnsE0="
+  crossorigin="anonymous"
+></script>
+<script>
+  format()
+
+  function format() {
+    document.querySelectorAll('span[data-format="luxon"]').forEach(el => {
+      const date = el.textContent
+
+      el.textContent = luxon.DateTime.fromISO(date, { locale: "zh" }).toFormat("yyyy年MM月dd日")
+    })
+  }
+</script>
+
+
+
+
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
